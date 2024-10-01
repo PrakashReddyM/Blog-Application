@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+    position: sticky; 
+    top: 0;        
+    height: 100vh; 
+    width: 250px;   
+    padding: 20px;   
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+}
